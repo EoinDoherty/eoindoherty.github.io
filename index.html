@@ -2,7 +2,197 @@
   <head>
     <title>Hello</title>
   </head>
+  <link rel="stylesheet" href="./css/bootstrap.css"/>
   <body>
-    <h1>Hello</h1>
+    <div class="container">
+      <h1>About Me</h1>
+      <div class="row">
+        <div class="col-md">
+          <div class="card">
+            <img class="card-img-top" src="https://avatars2.githubusercontent.com/u/17422220?s=400&u=1bdd639f10a65b1b7dfd588ce4f8b121fcd7ab97&v=4" alt="Headshot">
+            <div class="card-body" style="text-align: center">
+              <h4 class="card-title">Eoin Doherty</h4>
+              <p class="card-title">eoin.doherty@colorado.edu</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+      <h1>Education</h1>
+    
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">School</th>
+            <th scope="col">Location</th>
+            <th scope="col">Start</th>
+            <th scope="col">End</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>University of Colorado, Boulder</td>
+            <td>Boulder, CO</td>
+            <td>Fall 2016</td>
+            <td>Present</td>
+          </tr>
+        </tbody>
+      </table>
+    
+      <h1>Work Experiences</h1>
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">Company/Organization</th>
+            <th scope="col">Title</th>
+            <th scope="col">Description</th>
+            <th scope="col">Duration</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>CU Boulder</td>
+            <td>Research Assistant</td>
+            <td>Swarm robotics research assistant</td>
+            <td>Fall 2017</td>
+          </tr>
+
+          <tr>
+            <td>The Vanguard School</td>
+            <td>Tutor</td>
+            <td>Math tutoring for high school students</td>
+            <td>Fall 2015 - Spring 2016</td>
+          </tr>
+        </tbody>
+      </table>
+    
+      <h1>Projects</h1>
+    
+      <div class="row">
+      <div class="col">
+      <div class="card">
+        <img class="card-img-top" src="https://article.images.consumerreports.org/prod/content/dam/cro/news_articles/Electronics/CRO_Electronics_Computer_Backup_05-15" alt="Card image cap">
+        <div class="card-body">
+          <h4 class="card-title">Quick Copy</h4>
+          <p class="card-text">File backup project in node.js.</p>
+          <p class="card-text">2017</p>
+          <a href="https://github.com/EoinDoherty/QuickCopy">View on Github</a>
+        </div>
+      </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Wikipedia_favicon_hexdump.svg/290px-Wikipedia_favicon_hexdump.svg.png" alt="Card image cap">
+          <div class="card-body">
+            <h4 class="card-title">Atom Hex Editor</h4>
+            <p class="card-text">View hex dumps of files in the atom text editor.</p>
+            <p class="card-text">2017</p>
+            <a href="https://github.com/EoinDoherty/hex-editor">View on Github</a>
+          </div>
+        </div>
+        </div>
+
+        <div class="col">
+          <div class="card">
+            <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/1280px-Flag_of_the_United_States.svg.png" alt="Card image cap">
+            <div class="card-body">
+              <h4 class="card-title">Noise cancelling politics</h4>
+              <p class="card-text">Find local politicians easily. Written using flask.</p>
+              <p class="card-text">2017</p>
+              <a href="https://github.com/Chernide/SoftwareDevTeam-65">View on Github</a>
+            </div>
+          </div>
+          </div>
+      </div>
+    
+      <h1>Programming Languages</h1>
+    
+      <table class="table">
+    
+        <thead>
+          <tr>
+            <th scope="col">Language</th>
+            <th scope="col">Years experience</th>
+          </tr>
+        </thead>
+    
+        <tbody>
+          <tr>
+            <td>Python</td>
+            <td>4</td>
+          </tr>
+
+          <tr>
+            <td>JavaScript</td>
+            <td>3</td>
+          </tr>
+          
+          <tr>
+            <td>C++</td>
+            <td>2</td>
+          </tr>
+          
+          <tr>
+            <td>HTML/CSS</td>
+            <td>2</td>
+          </tr>
+
+          <tr>
+            <td>C</td>
+            <td>1</td>
+          </tr>
+
+          <tr>
+            <td>Haskell</td>
+            <td> &lt; 1</td>
+          </tr>
+        </tbody>
+    
+      </table>
+    
+      <h1>Skills and Hobbies</h1>
+    
+      <table class="table">
+    
+        <thead>
+          <tr>
+            <th scope="col">Skill</th>
+            <th scope="col">Experience</th>
+          </tr>
+        </thead>
+    
+        <tbody>
+
+          <tr>
+            <td style="padding-right: 1em">Writing</td>
+            <td style="padding-right: 1em">Intermediate/Advanced</td>
+          </tr>
+
+          <tr>
+            <td style="padding-right: 1em">Tennis</td>
+            <td style="padding-right: 1em">Intermediate</td>
+          </tr>
+
+          <tr>
+            <td style="padding-right: 1em">Skiing</td>
+            <td style="padding-right: 1em">Beginner</td>
+          </tr>
+
+        </tbody>
+    
+      </table>
+      
+    </div>
+    
+    <style>
+      .container {
+        text-align: left;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    
+        font-family: sans-serif;
+      }
+    </style>
   </body>
 </html>
